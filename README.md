@@ -2,8 +2,8 @@
 
 Envia 2 bytes de datos al dispositivo master
 
-## Master Code:
-```c++
+## Master I2C Code Access:
+```arduino
   int data = 0;
   Wire.beginTransmission(13);
   Wire.write(1);
