@@ -1,9 +1,9 @@
-# i2c_attiny85_slave
+# I2C Attiny85 Slave
 
-Envia 2 bytes de datos al dispositivo master
+Envia 2 bytes de datos al dispositivo master.
 
 ## Master I2C Code Access:
-```arduino
+```c++
   int data = 0;
   Wire.beginTransmission(13);
   Wire.write(1);
